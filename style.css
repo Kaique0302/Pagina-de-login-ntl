@@ -1,0 +1,87 @@
+    @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Outfit:wght@700&family=Sarala:wght@700&family=Sedgwick+Ave&display=swap');
+
+
+            body {
+                background: #ffffff;
+            }
+
+            .cabecalho {
+                color: #000000;
+                text-align: center;
+                font-family: 'Outfit', sans-serif;
+                gap: 10px;
+
+            }
+
+            .formulario-base {
+                background-color: #eeeeff;
+                border-radius: 20px;
+                box-shadow: 0px 10px 40px  #00000056;
+                max-width: 500px;
+                width: 70%;
+                padding: 20px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                /*Centraliza no meio e se adapta a qualquer tamanho de tela */
+                transform: translate(-50%, -50%);
+            }
+
+
+            .caixa-email {
+                width: 100%;
+                height: 45px;
+                border: lpx solid #ccc;
+                padding-left: 10px;
+                margin: 10px 0;
+            }   
+
+            .caixa-senha {
+                width: 100%;
+                height: 45px;
+                border: lpx solid #ccc;
+                padding-left: 10px;
+                margin: 10px 0;
+            }
+
+            .botao {
+                width: 100%;
+                height: 30px;
+                margin: 10px;
+            cursor: pointer;
+            box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+            border: 0;
+            background: black;
+            color: white;
+            font-family: 'Luxurious Roman', cursive;
+
+            
+            }
+                
+    .caixa-email :focus{
+        outline: 0;
+       
+    }
+
+
+ 
+
+    .caixa-senha :focus{
+        outline: 0;
+    }
+
+
+    .registro {
+        gap: 10px;
+        font-size: small;
+        color:#8d8d8d;
+        margin: 15px;
+        
+
+    }
+    .rodape {
+        height: 48px;
+        display: block;
+        margin: 0 auto;
+    }
+
